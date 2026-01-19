@@ -1,2 +1,2 @@
 # Programa-oC
-Repositório para aulas e dasfios em C.
+Repositório para aulas e desafios em C.
