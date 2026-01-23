@@ -26,6 +26,10 @@ int main(){
 
     int resultadoA, resultadoB;
 
+    // Variaveis de Temperatura
+
+    float temperaturaC = 30.0;
+
     // Exibindo Informacoes do Estoque
 
     printf("#### Inventario de Estoque ####\n\n");
@@ -55,10 +59,18 @@ int main(){
 
               if (estoqueB < estoqueMinimoB) { // Condicional para alerta de estoque minimo
             printf("Alerta: Estoque abaixo do minimo recomendado (%u unidades)\n", estoqueMinimoB);
+             } else {
+            printf("Estoque dentro do recomendado (%u unidades)\n", estoqueMinimoB);
              }
 
     printf("\n");
     printf("Valor Total do Estoque: R$ %.2f\n\n", valorTotalEstoque);
+
+             if (temperaturaC > 35.0) { // Condicional para alerta de temperatura
+             printf("Alerta: Temperatura acima do recomendado para armazenamento (%.2f °C)\n\n", temperaturaC);
+              } else {
+             printf("Temperatura de armazenamento dentro do recomendado (%.2f °C)\n\n", temperaturaC);
+              }
 
     // Comparação entre os valores totais dos produtos
 
