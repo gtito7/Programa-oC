@@ -15,11 +15,17 @@ int main() {
     media = (float)(nota1 + nota2 + nota3) / 3; // Conversão explícita para float
     printf("A média das notas é: %.1f\n", media);
 
-    if (media >= 7.0) {
-        printf("Aluno aprovado!\n");
-    } else {
-        printf("Aluno reprovado!\n");
-    }   
+    printf("Conceito do aluno: ");
+
+    if (media >= 9.0){
+        printf("Conceito A\n");
+    } else if (media >= 8.0){
+        printf("Conceito B\n");
+    } else if (media >= 7.0){
+        printf("Conceito C\n");
+    } else if (media <= 6.0){
+        printf("Aluno Reprovado!\n");
+    }
 
     return 0;
 }

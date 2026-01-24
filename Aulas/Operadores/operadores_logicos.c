@@ -33,9 +33,20 @@ int main (){
         printf("A condição z > 10 é verdadeira.\n");
     }
 
+// Decisão Encadeada com Operadores Lógicos
+    int idade = 12;
+    printf("Digite sua idade: ");
+    scanf("%d", &idade);
+    
+    if (idade >= 18 && idade < 65) {
+        printf("Você é um adulto em idade ativa.\n");
+    } else if (idade >= 65) {
+        printf("Você é um idoso.\n");
+    } else {
+        printf("Você é menor de idade.\n");
+    }
+
     return 0;
-
-
 
 
 }
