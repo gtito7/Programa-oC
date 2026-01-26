@@ -198,79 +198,131 @@ int main() {
 
     // VALOR DO JOGADOR
 
-        if (jogador == 1 && atributo == 1) valorJogador = populacao1;
-    else if (jogador == 1 && atributo == 2) valorJogador = area1;
-    else if (jogador == 1 && atributo == 3) valorJogador = pib1;
-    else if (jogador == 1 && atributo == 4) valorJogador = pontos1;
-    else if (jogador == 1 && atributo == 5) valorJogador = densidade1;
+    switch (jogador) {
+    case 1:
+        switch (atributo) {
+            case 1: valorJogador = populacao1; break;
+            case 2: valorJogador = area1; break;
+            case 3: valorJogador = pib1; break;
+            case 4: valorJogador = pontos1; break;
+            case 5: valorJogador = densidade1; break;
+        }
+        break;
 
-    else if (jogador == 2 && atributo == 1) valorJogador = populacao2;
-    else if (jogador == 2 && atributo == 2) valorJogador = area2;
-    else if (jogador == 2 && atributo == 3) valorJogador = pib2;
-    else if (jogador == 2 && atributo == 4) valorJogador = pontos2;
-    else if (jogador == 2 && atributo == 5) valorJogador = densidade2;
+    case 2:
+        switch (atributo) {
+            case 1: valorJogador = populacao2; break;
+            case 2: valorJogador = area2; break;
+            case 3: valorJogador = pib2; break;
+            case 4: valorJogador = pontos2; break;
+            case 5: valorJogador = densidade2; break;
+        }
+        break;
 
-    else if (jogador == 3 && atributo == 1) valorJogador = populacao3;
-    else if (jogador == 3 && atributo == 2) valorJogador = area3;
-    else if (jogador == 3 && atributo == 3) valorJogador = pib3;
-    else if (jogador == 3 && atributo == 4) valorJogador = pontos3;
-    else if (jogador == 3 && atributo == 5) valorJogador = densidade3;
+    case 3:
+        switch (atributo) {
+            case 1: valorJogador = populacao3; break;
+            case 2: valorJogador = area3; break;
+            case 3: valorJogador = pib3; break;
+            case 4: valorJogador = pontos3; break;
+            case 5: valorJogador = densidade3; break;
+        }
+        break;
 
-    else if (jogador == 4 && atributo == 1) valorJogador = populacao4;
-    else if (jogador == 4 && atributo == 2) valorJogador = area4;
-    else if (jogador == 4 && atributo == 3) valorJogador = pib4;
-    else if (jogador == 4 && atributo == 4) valorJogador = pontos4;
-    else if (jogador == 4 && atributo == 5) valorJogador = densidade4;
+    case 4:
+        switch (atributo) {
+            case 1: valorJogador = populacao4; break;
+            case 2: valorJogador = area4; break;
+            case 3: valorJogador = pib4; break;
+            case 4: valorJogador = pontos4; break;
+            case 5: valorJogador = densidade4; break;
+        }
+        break;
 
-    else if (jogador == 5 && atributo == 1) valorJogador = populacao5;
-    else if (jogador == 5 && atributo == 2) valorJogador = area5;
-    else if (jogador == 5 && atributo == 3) valorJogador = pib5;
-    else if (jogador == 5 && atributo == 4) valorJogador = pontos5;
-    else if (jogador == 5 && atributo == 5) valorJogador = densidade5;
+    case 5:
+        switch (atributo) {
+            case 1: valorJogador = populacao5; break;
+            case 2: valorJogador = area5; break;
+            case 3: valorJogador = pib5; break;
+            case 4: valorJogador = pontos5; break;
+            case 5: valorJogador = densidade5; break;
+        }
+        break;
 
-    else if (jogador == 6 && atributo == 1) valorJogador = populacao6;
-    else if (jogador == 6 && atributo == 2) valorJogador = area6;
-    else if (jogador == 6 && atributo == 3) valorJogador = pib6;
-    else if (jogador == 6 && atributo == 4) valorJogador = pontos6;
-    else if (jogador == 6 && atributo == 5) valorJogador = densidade6;
+    case 6:
+        switch (atributo) {
+            case 1: valorJogador = populacao6; break;
+            case 2: valorJogador = area6; break;
+            case 3: valorJogador = pib6; break;
+            case 4: valorJogador = pontos6; break;
+            case 5: valorJogador = densidade6; break;
+        }
+        break;
+    }
 
     // VALOR DO COMPUTADOR
 
-        if (computador == 1 && atributo == 1) valorComputador = populacao1;
-    else if (computador == 1 && atributo == 2) valorComputador = area1;
-    else if (computador == 1 && atributo == 3) valorComputador = pib1;
-    else if (computador == 1 && atributo == 4) valorComputador = pontos1;
-    else if (computador == 1 && atributo == 5) valorComputador = densidade1;
+    switch (computador) {
+    case 1:
+        switch (atributo) {
+            case 1: valorComputador = populacao1; break;
+            case 2: valorComputador = area1; break;
+            case 3: valorComputador = pib1; break;
+            case 4: valorComputador = pontos1; break;
+            case 5: valorComputador = densidade1; break;
+        }
+        break;
 
-    else if (computador == 2 && atributo == 1) valorComputador = populacao2;
-    else if (computador == 2 && atributo == 2) valorComputador = area2;
-    else if (computador == 2 && atributo == 3) valorComputador = pib2;
-    else if (computador == 2 && atributo == 4) valorComputador = pontos2;
-    else if (computador == 2 && atributo == 5) valorComputador = densidade2;
+    case 2:
+        switch (atributo) {
+            case 1: valorComputador = populacao2; break;
+            case 2: valorComputador = area2; break;
+            case 3: valorComputador = pib2; break;
+            case 4: valorComputador = pontos2; break;
+            case 5: valorComputador = densidade2; break;
+        }
+        break;
 
-    else if (computador == 3 && atributo == 1) valorComputador = populacao3;
-    else if (computador == 3 && atributo == 2) valorComputador = area3;
-    else if (computador == 3 && atributo == 3) valorComputador = pib3;
-    else if (computador == 3 && atributo == 4) valorComputador = pontos3;
-    else if (computador == 3 && atributo == 5) valorComputador = densidade3;
+    case 3:
+        switch (atributo) {
+            case 1: valorComputador = populacao3; break;
+            case 2: valorComputador = area3; break;
+            case 3: valorComputador = pib3; break;
+            case 4: valorComputador = pontos3; break;
+            case 5: valorComputador = densidade3; break;
+        }
+        break;
 
-    else if (computador == 4 && atributo == 1) valorComputador = populacao4;
-    else if (computador == 4 && atributo == 2) valorComputador = area4;
-    else if (computador == 4 && atributo == 3) valorComputador = pib4;
-    else if (computador == 4 && atributo == 4) valorComputador = pontos4;
-    else if (computador == 4 && atributo == 5) valorComputador = densidade4;
+    case 4:
+        switch (atributo) {
+            case 1: valorComputador = populacao4; break;
+            case 2: valorComputador = area4; break;
+            case 3: valorComputador = pib4; break;
+            case 4: valorComputador = pontos4; break;
+            case 5: valorComputador = densidade4; break;
+        }
+        break;
 
-    else if (computador == 5 && atributo == 1) valorComputador = populacao5;
-    else if (computador == 5 && atributo == 2) valorComputador = area5;
-    else if (computador == 5 && atributo == 3) valorComputador = pib5;
-    else if (computador == 5 && atributo == 4) valorComputador = pontos5;
-    else if (computador == 5 && atributo == 5) valorComputador = densidade5;
+    case 5:
+        switch (atributo) {
+            case 1: valorComputador = populacao5; break;
+            case 2: valorComputador = area5; break;
+            case 3: valorComputador = pib5; break;
+            case 4: valorComputador = pontos5; break;
+            case 5: valorComputador = densidade5; break;
+        }
+        break;
 
-    else if (computador == 6 && atributo == 1) valorComputador = populacao6;
-    else if (computador == 6 && atributo == 2) valorComputador = area6;
-    else if (computador == 6 && atributo == 3) valorComputador = pib6;
-    else if (computador == 6 && atributo == 4) valorComputador = pontos6;
-    else if (computador == 6 && atributo == 5) valorComputador = densidade6;
+    case 6:
+        switch (atributo) {
+            case 1: valorComputador = populacao6; break;
+            case 2: valorComputador = area6; break;
+            case 3: valorComputador = pib6; break;
+            case 4: valorComputador = pontos6; break;
+            case 5: valorComputador = densidade6; break;
+        }
+        break;
+    }
 
 // RESULTADO
 
