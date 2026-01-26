@@ -167,7 +167,7 @@ int main() {
     }
 
     int jogador, computador, atributo;
-    float valorJogador = 0, valorComputador = 0;
+    float valorJogador, valorComputador;
 
     srand(time(0));
 
